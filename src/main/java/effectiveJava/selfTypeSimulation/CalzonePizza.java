@@ -28,7 +28,7 @@ public class CalzonePizza extends AbstractPizza {
 
     @Override
     public String toString() {
-        return String.format("Calzone pizza with sauce %s and toppings %", sauceInside ? "inside" : "outside", toppings);
+        return String.format("Calzone pizza with sauce %s and toppings %s", sauceInside ? "inside" : "outside", toppings);
     }
 
 }
